@@ -1,0 +1,13 @@
+div.q1, div.q2 {
+  overflow:hidden;
+}
+
+#qarea .r {
+  float:left;
+  width:50px;
+  font-weight:bold;
+}
+#qarea .q {
+  width:450px;
+  float:left;
+}

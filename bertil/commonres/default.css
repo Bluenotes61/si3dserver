@@ -1,0 +1,107 @@
+html, body {
+  margin:0;
+  padding:0;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  margin:0;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  color:#3B5998;
+}
+p {
+  margin 0 0 10px 0;
+}
+h1 {
+  font-size:50px;
+}
+a {
+  font-weight:bold;
+  color:#3B5998;
+  text-decoration:none;
+}
+a.anch {
+  color:#fff;
+}
+#top {
+  overflow:hidden;
+}
+#top .intro {
+  font-weight:bold;
+  font-style:italic;
+}
+#top .left {
+  float:left;
+  width:540px;
+}
+#top .right {
+  float:right;
+  width:250px;
+  text-align:center;
+}
+
+#qarea {
+  margin-top:30px;
+  width:760px;
+}
+
+#qarea .oneq {
+  margin-bottom:20px;
+  overflow:hidden;
+}
+
+#qarea .nr {
+  color:#3B5998;
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+#qarea .q {
+  width:500px;
+  float:left;
+}
+
+#qarea .a {
+  color:#3B5998;
+  font-weight:bold;
+  margin-left:20px;
+  width:190px;
+  float:left;
+}
+#qarea .a input {
+  width:100%;
+  color:#f00;
+}
+
+#correct,
+#final {
+  padding:20px;
+  background:#fff;
+  position:absolute;
+  display:none;
+  border:solid 5px #ccc;
+  border-radius:20px;
+  width:0;
+  left:350px;
+  height:0;
+  text-align:center;
+  margin-top:-80px;
+}
+
+#correct h1 {
+  color:#3B5998;
+  font-size:80px;
+  font-weight:bold;
+}
+
+#correct h2 {
+  margin: 20px 0 0 0;
+  color:#3B5998;
+  font-size:40px;
+  font-weight:bold;
+}
+
+#reset {
+  display:none;
+  margin-top:10px;
+}

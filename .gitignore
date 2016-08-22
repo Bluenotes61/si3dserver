@@ -1,0 +1,9 @@
+#config files should not be commited
+/web.config
+/Web.config
+
+#private files
+private
+
+#images
+si3d
